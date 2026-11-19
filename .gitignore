@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Dependencies
+node_modules/
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Backend storage (keep folders, ignore files)
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+backend/storage/clips/*
+!backend/storage/clips/.gitkeep
+
+# dbmate generated schema dump (optional)
+backend/db/schema.sql
+
+# OS / editor
+.DS_Store
+*.log
